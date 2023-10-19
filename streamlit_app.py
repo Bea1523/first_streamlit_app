@@ -24,3 +24,4 @@ streamlit.text(fruityvice_response)
 streamlit.dataframe(fruits_to_show)
 
 
+streamlit.header("Fruityvice Fruit Advice!")
