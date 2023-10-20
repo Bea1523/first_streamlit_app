@@ -42,6 +42,6 @@ streamlit.dataframe(my_data_rows)
 
 
 
-new_fruits_selected = streamlit.multiselect("Picke some fruits:", list(pc_rivery_db.public.fruit_load_list.index),['Banana'])
+new_fruits_selected = streamlit.multiselect("Picke some new fruits:", list(fruit_load_list.index),['Banana'])
 new_fruits_to_show = fruit_load_list.loc[new_fruits_selected]
 streamlit.dataframe(new_fruits_to_show)
