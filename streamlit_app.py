@@ -64,7 +64,7 @@ except URLErrir as e:
 
 
 
-streamlit.stop
+#streamlit.stop
 
 streamlit.header("The fruit list contains:")
 #Snowflake related functions
